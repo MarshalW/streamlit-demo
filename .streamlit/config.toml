@@ -1,0 +1,24 @@
+[client]
+showErrorDetails = false
+# 屏蔽开发者选项
+# toolbarMode = "minimal"
+# toolbarMode = "viewer"
+toolbarMode = "developer"
+
+[theme]
+primaryColor = "red"
+# backgroundColor = "black"
+
+[server]
+cookieSecret = "a-random-key-appears-here"
+headless = false
+# address =
+port = 8502
+baseUrlPath = ""
+maxUploadSize = 200 # MB
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+serverPort = 8502
+
