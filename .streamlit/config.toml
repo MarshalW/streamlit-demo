@@ -1,5 +1,5 @@
 [client]
-showErrorDetails = false
+# showErrorDetails = false
 # 屏蔽开发者选项
 # toolbarMode = "minimal"
 # toolbarMode = "viewer"

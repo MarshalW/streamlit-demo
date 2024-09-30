@@ -1,21 +1,21 @@
 import setuptools
 
 import os
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'streamlit_marshal_helloworld/pypi_readme.md'), 'r') as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'streamlit_marshal_proto/pypi_readme.md'), 'r') as f:
   long_des = f.read()
 
 setuptools.setup(
-    name="streamlit-marshal-helloworld",
-    version="0.0.8",
+    name="streamlit-marshal-proto",
+    version="0.0.1",
     author="Marshal Wu",
     author_email="marshal.wu@gmail.com",
-    description="使用 vite 和 vanillajs 编写的 Streamlit hello world 示例",
+    description="使用 vite 和 vanillajs 编写的 Streamlit proto 示例",
     long_description=long_des,
     long_description_content_type="text/markdown",
-    url="https://github.com/MarshalW/streamlit-demo/tree/main/src/5.custom-components-dynamic-simple",
+    url="https://github.com/MarshalW/streamlit-demo/tree/main/src/7.custom-components-proto",
     keywords = ['some', 'key', 'word'],
     project_urls={
-        'Source': 'https://github.com/MarshalW/streamlit-demo/tree/main/src/5.custom-components-dynamic-simple',  
+        'Source': 'https://github.com/MarshalW/streamlit-demo/tree/main/src/7.custom-components-proto',  
     },
     packages=setuptools.find_packages(),
     include_package_data=True,
